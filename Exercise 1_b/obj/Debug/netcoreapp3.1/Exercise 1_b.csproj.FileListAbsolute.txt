@@ -1,0 +1,14 @@
+D:\Tài Liệu học năm 3\Exercise 1_b\Exercise 1_b\bin\Debug\netcoreapp3.1\Exercise 1_b.exe
+D:\Tài Liệu học năm 3\Exercise 1_b\Exercise 1_b\bin\Debug\netcoreapp3.1\Exercise 1_b.deps.json
+D:\Tài Liệu học năm 3\Exercise 1_b\Exercise 1_b\bin\Debug\netcoreapp3.1\Exercise 1_b.runtimeconfig.json
+D:\Tài Liệu học năm 3\Exercise 1_b\Exercise 1_b\bin\Debug\netcoreapp3.1\Exercise 1_b.runtimeconfig.dev.json
+D:\Tài Liệu học năm 3\Exercise 1_b\Exercise 1_b\bin\Debug\netcoreapp3.1\Exercise 1_b.dll
+D:\Tài Liệu học năm 3\Exercise 1_b\Exercise 1_b\bin\Debug\netcoreapp3.1\Exercise 1_b.pdb
+D:\Tài Liệu học năm 3\Exercise 1_b\Exercise 1_b\obj\Debug\netcoreapp3.1\Exercise 1_b.csproj.AssemblyReference.cache
+D:\Tài Liệu học năm 3\Exercise 1_b\Exercise 1_b\obj\Debug\netcoreapp3.1\Exercise 1_b.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tài Liệu học năm 3\Exercise 1_b\Exercise 1_b\obj\Debug\netcoreapp3.1\Exercise 1_b.AssemblyInfoInputs.cache
+D:\Tài Liệu học năm 3\Exercise 1_b\Exercise 1_b\obj\Debug\netcoreapp3.1\Exercise 1_b.AssemblyInfo.cs
+D:\Tài Liệu học năm 3\Exercise 1_b\Exercise 1_b\obj\Debug\netcoreapp3.1\Exercise 1_b.csproj.CoreCompileInputs.cache
+D:\Tài Liệu học năm 3\Exercise 1_b\Exercise 1_b\obj\Debug\netcoreapp3.1\Exercise 1_b.dll
+D:\Tài Liệu học năm 3\Exercise 1_b\Exercise 1_b\obj\Debug\netcoreapp3.1\Exercise 1_b.pdb
+D:\Tài Liệu học năm 3\Exercise 1_b\Exercise 1_b\obj\Debug\netcoreapp3.1\Exercise 1_b.genruntimeconfig.cache
