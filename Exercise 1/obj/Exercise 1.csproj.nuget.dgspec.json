@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tài Liệu học năm 3\\Exercise 1_b\\Exercise 1_b\\Exercise 1_b.csproj": {}
+    "D:\\Tài Liệu học năm 3\\Exercise 1\\Exercise 1\\Exercise 1.csproj": {}
   },
   "projects": {
-    "D:\\Tài Liệu học năm 3\\Exercise 1_b\\Exercise 1_b\\Exercise 1_b.csproj": {
+    "D:\\Tài Liệu học năm 3\\Exercise 1\\Exercise 1\\Exercise 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tài Liệu học năm 3\\Exercise 1_b\\Exercise 1_b\\Exercise 1_b.csproj",
-        "projectName": "Exercise 1_b",
-        "projectPath": "D:\\Tài Liệu học năm 3\\Exercise 1_b\\Exercise 1_b\\Exercise 1_b.csproj",
+        "projectUniqueName": "D:\\Tài Liệu học năm 3\\Exercise 1\\Exercise 1\\Exercise 1.csproj",
+        "projectName": "Exercise 1",
+        "projectPath": "D:\\Tài Liệu học năm 3\\Exercise 1\\Exercise 1\\Exercise 1.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Tài Liệu học năm 3\\Exercise 1_b\\Exercise 1_b\\obj\\",
+        "outputPath": "D:\\Tài Liệu học năm 3\\Exercise 1\\Exercise 1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
