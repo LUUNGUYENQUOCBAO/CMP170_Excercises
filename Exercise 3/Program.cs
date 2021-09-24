@@ -20,13 +20,13 @@ namespace Exercise_3
                     Console.WriteLine($"Volume label: {drive.VolumeLabel}");
                     Console.WriteLine($"Free space: {drive.TotalFreeSpace}");
                     Console.WriteLine($"Available space { drive.AvailableFreeSpace}");
-                Console.WriteLine($"Total size: {drive.TotalSize}");
+                    Console.WriteLine($"Total size: {drive.TotalSize}");
                     Console.WriteLine();
                 }
             }
             String path = @"C:\Users\DELL\Documents";
 
-             var files = Directory.GetDirectories(path);
+            var files = Directory.GetDirectories(path);
 
             foreach (var file in files)
             {
@@ -34,8 +34,8 @@ namespace Exercise_3
                 Console.WriteLine(file);
             }
             string text = System.IO.File.ReadAllText(@"C:\Users\DELL\Documents\New folder\HoTen.txt");
-            Console.WriteLine("\nThis is a text file in MyDocuments:");
-            Console.WriteLine(text);
+                 Console.WriteLine("\nThis is a text file in MyDocuments:");
+                 Console.WriteLine(text);
 
         }
 
