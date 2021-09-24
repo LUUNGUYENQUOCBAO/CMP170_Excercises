@@ -38,10 +38,7 @@ namespace Exercise_3
                  Console.WriteLine(text);
 
         }
-
-
-    }
+   }
     
-
 }
 
