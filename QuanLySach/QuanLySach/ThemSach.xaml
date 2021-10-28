@@ -1,0 +1,43 @@
+﻿<Window x:Class="QuanLySach.ThemSach"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QuanLySach"
+        mc:Ignorable="d"
+        Title="ThemSach" Height="450" Width="750"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="best-philosophy-books-158804640596254633638-0-0-500-800-crop-15880464717071819630196.jpg"/>
+        </Grid.Background>
+        <Label Content="Add New Books" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="-1,0,1,0" Width="742" Height="62" Background="#FF12E8CB" FontWeight="Bold" FontFamily="Arial Black" FontSize="48" HorizontalContentAlignment="Center"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="45" Background="#FF12E8CB" Click="Button_Click"/>
+        <Label Content="Mã Sách" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" Background="#FF12E8CB" FontWeight="Bold"/>
+        <Label Content="Tên Sách" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.395,2.942" Background="#FF12E8CB" FontWeight="Bold"/>
+        <Label Content="Tác Giả" HorizontalAlignment="Left" Margin="10,170,0,0" VerticalAlignment="Top" Background="#FF12E8CB" Width="57" FontWeight="Bold"/>
+        <Label Content="Thể Loại" HorizontalAlignment="Left" Margin="350,96,0,0" VerticalAlignment="Top" Background="#FF12E8CB" FontWeight="Bold"/>
+        <Label Content="Nhà Xuất Bản" HorizontalAlignment="Left" Margin="350,129,0,0" VerticalAlignment="Top" Background="#FF12E8CB" FontWeight="Bold"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="22" Margin="86,97,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244"/>
+        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Height="22" Margin="445,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244"/>
+        <TextBox x:Name="textbox3" HorizontalAlignment="Left" Height="22" Margin="445,99,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244"/>
+        <TextBox x:Name="textbox4" HorizontalAlignment="Left" Height="22" Margin="87,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244"/>
+        <TextBox x:Name="textbox5" HorizontalAlignment="Left" Height="22" Margin="87,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="244"/>
+        <ListView x:Name="ListView1" HorizontalAlignment="Left" Height="199" Margin="2,220,-1,0" VerticalAlignment="Top" Width="741">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=MaSach}" Header="Mã Sách" Width="150"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=TênSach}" Header="Tên Sách" Width="150"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=TacGia}" Header="Tác Giả" Width="150"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=TheLoai}" Header="Thể Loại" Width="150"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=NXB}" Header="Nhà Xuất Bản" Width="150"/>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <Button Content="Thêm" HorizontalAlignment="Left" Margin="386,182,0,0" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.433,1.125" Background="#FF12E8CB" Click="AddButton_Click_1"/>
+        <Button Content="xoá" HorizontalAlignment="Left" Margin="557,184,0,0" VerticalAlignment="Top" Width="75" Background="#FF12E8CB" Click="DeleteButton_Click_1"/>
+
+    </Grid>
+</Window>
